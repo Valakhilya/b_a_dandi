@@ -1,4 +1,4 @@
-baseURL = 'https://localhost:1313'
+baseURL = 'https://valakhilya.github.io/b_a_dandi/'
 languageCode = 'en-us'
 title = "Dandi Swami's weblog"
 defaultContentLanguage = 'en'
