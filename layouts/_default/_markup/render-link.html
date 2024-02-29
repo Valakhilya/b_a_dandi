@@ -1,0 +1,6 @@
+{{- if (hasSuffix  .Destination ".md") -}}
+<a href="{{ print site.BaseURL "/posts/" (strings.TrimSuffix ".md"
+    .Destination) | safeURL }}">{{ .Text }}</a>
+{{ else }}
+<a href="{{ print site.BaseURL "/posts/" .Destination | safeURL }}">{{ .Text }}</a>
+{{ end }}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dandi Swami&#39;s weblog</title>
+    <link>https://localhost:1313/</link>
+    <description>Recent content on Dandi Swami&#39;s weblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <atom:link href="https://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About me</title>
+      <link>https://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://localhost:1313/about/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>About Vaishnava Calendar calculations in SCSM</title>
+      <link>https://localhost:1313/posts/about_vaishnava_calendar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://localhost:1313/posts/about_vaishnava_calendar/</guid>
+      <description>It is something I wrote in my website&#xA;first first </description>
+    </item>
+    <item>
+      <title>About Vaishnava Calendar calculations in SCSM</title>
+      <link>https://localhost:1313/posts/first/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://localhost:1313/posts/first/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

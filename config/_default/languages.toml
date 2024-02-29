@@ -1,0 +1,10 @@
+[en]
+    languageName = 'English'
+    languageCode = 'en-US'
+    contentDir = 'content/en'
+    weight = 1
+[ru]
+    languageName = 'Russian'
+    languageCode = 'ru-RU'
+    contentDir = 'content/ru'
+    weight = 2

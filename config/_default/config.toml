@@ -1,0 +1,5 @@
+baseURL = 'https://localhost:1313'
+languageCode = 'en-us'
+title = "Dandi Swami's weblog"
+defaultContentLanguage = 'en'
+paginate = 12

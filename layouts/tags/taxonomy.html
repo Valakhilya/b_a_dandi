@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website's  tags'</title>
+    <link rel="stylesheet" href="/css/pure-min.css">
+    <link rel="stylesheet" href="/css/grids-responsive-min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+<div id="layout" class="pure-g">
+    <div class="sidebar pure-u-1 pure-u-md-1-4">
+        <div class="header">
+            <img src="/img/Sri-Chaitanya-Saraswat-Math.jpg" 
+            alt="Sri Chaitanya Saraswat Math" class="pure-img-responsive">
+            <h1 class="brand-title">{{ .Site.Title }}</h1>
+            <h2 class="brand-tagline">{{ .Site.Params.Subtitle }}</h2>
+        </div>
+    </div>
+
+    <div class="content pure-u-1 pure-u-md-3-4">
+        <h1 class="content-subhead">Website's tags</h1>
+        <div class="tags">
+            <ul class="taglist">
+              {{ range .Site.Taxonomies.tags }}
+                <li>
+                    <a class="post-category 
+                            post-category-{{ .Page.LinkTitle }}"
+                        href="{{ .Page.Permalink }}">
+                        {{ .Page.Title }}</a>({{ .Count }})
+                </li>
+              {{ end }}
+            </ul>
+        </div>
+        <div class="footer">
+            <div class="pure-menu pure-menu-horizontal">
+                <ul>
+                    <li class="pure-menu-item">
+                        <a href="/about" class="pure-menu-link">About</a>
+                    </li>
+                    <li class="pure-menu-item"><a href="/"
+                            class="pure-menu-link">Home</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
+
