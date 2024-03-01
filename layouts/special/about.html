@@ -4,9 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ .Title }}</title>
-    <link rel="stylesheet" href="/css/pure-min.css">
-    <link rel="stylesheet" href="/css/grids-responsive-min.css">
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="{{ .Site.Home.Permalink }}/css/pure-min.css">
+    <link rel="stylesheet" 
+        href="{{ .Site.Home.Permalink }}/css/grids-responsive-min.css">
+    <link rel="stylesheet" href="{{ .Site.Home.Permalink }}/css/styles.css">
 </head>
 <body>
     <div id="layout" class="pure-g">
@@ -23,10 +24,13 @@
                 <div class="pure-menu pure-menu-horizontal">
                     <ul>
                         <li class="pure-menu-item">
-                            <a href="/" class="pure-menu-link">Home</a>
+                            <a href="{{ .Site.Home.Permalink }}"
+                                class="pure-menu-link">Home</a>
                         </li>
                         <li class="pure-menu-item">
-                            <a href="/about/" class="pure-menu-link">About</a>
+                            <a 
+                                href="{{ .Site.Home.Permalink }}/about/" 
+                                class="pure-menu-link">About</a>
                         </li>
                     </ul>
                 </div>
@@ -35,6 +39,5 @@
         </div>
         <div class="pure-u-1 pure-u-md-1-4"></div>
     </div>
-
 </body>
 </html>

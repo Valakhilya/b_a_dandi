@@ -7,13 +7,23 @@
     <link rel="stylesheet" href="css/pure-min.css">
     <link rel="stylesheet" href="css/grids-responsive-min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="preload" href="fonts/CharisSIL.woff2" as="font" 
+        type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/CharisSIL-Italic.woff2" as="font"
+        type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/CharisSIL-BoldItalic.woff2" as="font"
+        type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/CharisSIL-Bold.woff2" as="font"
+        type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="css/fonts.css">
 </head>
 <body>
 
 <div id="layout" class="pure-g">
     <div class="sidebar pure-u-1 pure-u-md-1-4">
         <div class="header">
-            <img src="img/Sri-Chaitanya-Saraswat-Math.jpg" 
+            <img 
+        src="{{ .Site.Home.Permalink }}/img/Sri-Chaitanya-Saraswat-Math.jpg" 
             alt="Sri Chaitanya Saraswat Math" class="pure-img-responsive">
             <h1 class="brand-title">{{ .Title }}</h1>
             <h2 class="brand-tagline">{{ .Params.Subtitle }}</h2>
@@ -39,7 +49,7 @@
                             {{ range .GetTerms "tags" }}
                                     <li>
                                     <a class="post-category 
-                                                 post-category-{{ .LinkTitle }}" 
+                                       post-category-{{ .LinkTitle }}" 
                                        href="{{ .Permalink}}">
                                     {{ .LinkTitle }}</a>
                                     </li>
@@ -60,9 +70,11 @@
                 <div class="pure-menu pure-menu-horizontal">
                     <ul>
                         <li class="pure-menu-item">
-                            <a href="/about" class="pure-menu-link">About</a>
+                            <a href="{{ .Site.Home.Permalink }}/about" 
+                                class="pure-menu-link">About</a>
                         </li>
-                        <li class="pure-menu-item"><a href="/"
+                        <li class="pure-menu-item">
+                            <a href="{{ .Site.Home.Permalink }}"
                                 class="pure-menu-link">Home</a></li>
                     </ul>
                 </div>

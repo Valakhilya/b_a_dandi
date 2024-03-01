@@ -2,50 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://localhost:1313/posts/</loc>
+    <loc>https://valakhilya.github.io/b_a_dandi/posts/</loc>
   </url><url>
-    <loc>https://localhost:1313/about/</loc>
+    <loc>https://valakhilya.github.io/b_a_dandi/about/</loc>
   </url><url>
-    <loc>https://localhost:1313/posts/about_vaishnava_calendar/</loc>
+    <loc>https://valakhilya.github.io/b_a_dandi/posts/about_vaishnava_calendar/</loc>
   </url><url>
-    <loc>https://localhost:1313/posts/first/</loc>
+    <loc>https://valakhilya.github.io/b_a_dandi/posts/first/</loc>
   </url><url>
-    <loc>https://localhost:1313/tags/calendar/</loc>
+    <loc>https://valakhilya.github.io/b_a_dandi/tags/calendar/</loc>
   </url><url>
-    <loc>https://localhost:1313/categories/</loc>
+    <loc>https://valakhilya.github.io/b_a_dandi/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru-RU"
-                href="https://localhost:1313/ru/categories/"
+                href="https://valakhilya.github.io/b_a_dandi/ru/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://localhost:1313/categories/"
+                href="https://valakhilya.github.io/b_a_dandi/categories/"
                 />
   </url><url>
-    <loc>https://localhost:1313/</loc>
+    <loc>https://valakhilya.github.io/b_a_dandi/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru-RU"
-                href="https://localhost:1313/ru/"
+                href="https://valakhilya.github.io/b_a_dandi/ru/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://localhost:1313/"
+                href="https://valakhilya.github.io/b_a_dandi/"
                 />
   </url><url>
-    <loc>https://localhost:1313/tags/</loc>
+    <loc>https://valakhilya.github.io/b_a_dandi/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru-RU"
-                href="https://localhost:1313/ru/tags/"
+                href="https://valakhilya.github.io/b_a_dandi/ru/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://localhost:1313/tags/"
+                href="https://valakhilya.github.io/b_a_dandi/tags/"
                 />
   </url>
 </urlset>

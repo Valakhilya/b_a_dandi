@@ -13,6 +13,11 @@ a:focus {
     text-decoration: underline;
 }
 
+body {
+    font-family: Georgia, "Cambria", serif;
+    font-size: 150%;
+}
+
 h3 {
     font-weight: 100;
 }
@@ -116,8 +121,6 @@ h3 {
 }
 
 .post-description {
-    font-family: Georgia, "Cambria", serif;
-    font-size: 150%;
     color: #444;
     line-height: 1.8em;
     font-style: italic;

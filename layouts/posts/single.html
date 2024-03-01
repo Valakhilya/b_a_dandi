@@ -4,9 +4,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ .Title }}</title>
-    <link rel="stylesheet" href="css/pure-min.css">
-    <link rel="stylesheet" href="css/grids-responsive-min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="{{ .Site.Home.Permalink }}/css/pure-min.css">
+    <link rel="stylesheet" href="{{ .Site.Home.Permalink }}/css/grids-responsive-min.css">
+    <link rel="stylesheet" href="{{ .Site.Home.Permalink }}/css/styles.css">
+    <link rel="preload" href="{{ .Site.Home.Permalink }}/fonts/CharisSIL.woff2" as="font" 
+        type="font/woff2" crossorigin>
+    <link rel="preload" href="{{ .Site.Home.Permalink }}/fonts/CharisSIL-Italic.woff2" as="font"
+        type="font/woff2" crossorigin>
+    <link rel="preload" href="{{ .Site.Home.Permalink }}/fonts/CharisSIL-BoldItalic.woff2" as="font"
+        type="font/woff2" crossorigin>
+    <link rel="preload" href="{{ .Site.Home.Permalink }}/fonts/CharisSIL-Bold.woff2" as="font"
+        type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="{{ .Site.Home.Permalink }}/css/fonts.css">
 </head>
 <body>
     <div id="layout" class="pure-g">
@@ -22,7 +31,7 @@
                             <li><a class="post-category 
                                    post-category-{{ .LinkTitle }}" 
                                 href="{{ .Permalink }}"> {{ .LinkTitle }}
-                                </a></li>&nbsp;
+                                </a></li>
                             {{ end }}
                         </ul>
                         {{ end }}
@@ -46,10 +55,10 @@
                             </li>
                             {{ end }}
                             <li class="pure-menu-item">
-                                <a href="/" class="pure-menu-link">Home</a>
+                                <a href="{{ .Site.Home.Permalink }}" class="pure-menu-link">Home</a>
                             </li>
                             <li class="pure-menu-item">
-                                <a href="/about/" class="pure-menu-link">About</a>
+                                <a href="{{ .Site.Home.Permalink }}/about/" class="pure-menu-link">About</a>
                             </li>
                             {{ with $posts.Next . }}
                             <li class="pure-menu-item">
