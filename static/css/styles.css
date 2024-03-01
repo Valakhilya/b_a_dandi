@@ -43,11 +43,6 @@ h3 {
     color: #fff;
 }
 
-.brand-title,
-.brand-tagline {
-    margin: 1em;
-}
-
 .brand-title {
     text-transform: uppercase;
 }
@@ -192,6 +187,9 @@ h3 {
     }
 
 @media (min-width: 48em) {
+    body {
+        font-size: 100%;
+    }
     .content {
         padding: 2em 3em 0;
     }
