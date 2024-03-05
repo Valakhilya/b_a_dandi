@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Vaisnava calendar calculations in SCSM</title>
+    <link rel="stylesheet" href="https://valakhilya.github.io/b_a_dandi//css/pure-min.css">
+    <link rel="stylesheet" href="https://valakhilya.github.io/b_a_dandi//css/grids-responsive-min.css">
+    <link rel="stylesheet" href="https://valakhilya.github.io/b_a_dandi//css/styles.css">
+    <link rel="preload" href="https://valakhilya.github.io/b_a_dandi//fonts/CharisSIL.woff2" as="font" 
+        type="font/woff2" crossorigin>
+    <link rel="preload" href="https://valakhilya.github.io/b_a_dandi//fonts/CharisSIL-Italic.woff2" as="font"
+        type="font/woff2" crossorigin>
+    <link rel="preload" href="https://valakhilya.github.io/b_a_dandi//fonts/CharisSIL-BoldItalic.woff2" as="font"
+        type="font/woff2" crossorigin>
+    <link rel="preload" href="https://valakhilya.github.io/b_a_dandi//fonts/CharisSIL-Bold.woff2" as="font"
+        type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="https://valakhilya.github.io/b_a_dandi//css/fonts.css">
+</head>
+<body>
+    <div id="layout" class="pure-g">
+        <div class="pure-u-1 pure-u-md-1-4"></div>
+        <div class="pure-u-1 pure-u-md-1-2">
+            <section class="single-post">
+                <header class="post-header">
+                    <h1>About Vaisnava calendar calculations in SCSM</h1>
+                    <div class="post-meta">
+                        
+                        <ul class="taglist">
+                            
+                            <li><a class="post-category 
+                                   post-category-Calendar" 
+                                href="https://valakhilya.github.io/b_a_dandi/tags/calendar/"> Calendar
+                                </a></li>
+                            
+                        </ul>
+                        
+                    </div>
+                    <p class="post-description">
+                        Draft of manual regarding calculations tithi, ekadashi, dvadashi and paran days in Sri Chaitanya Saraswat Math.
+                    </p>
+                </header>
+                <main class="post-content">
+                    <p>My humble <em>dandavat pranam</em> to all the Sri Caitanya Saraswat Math world-wide vaisnavas!</p>
+<p>This article briefly describes the rules used to calculate the dates of various events, fasting dates in <em>ekadashis</em>, and time of braking fasts in our calendar.</p>
+<p>I will exclude any extraneous astronomical information and concentrate solely on the data required for calculations.</p>
+<p>The Gaudiya Vaishnava calendar is luni-solar, taking into account the cycles of both the Moon and the Sun.</p>
+<h2 id="terminology">Terminology</h2>
+<p>The Vaishnava calendar employs the same system of time measurement as the <em>Jyotisha shastras</em>, but it does not involve the signs of the Zodiac (<strong>rashis</strong>) or the houses of the planets (<strong>bhavas</strong>) in any way. A lunar month (<strong>masa</strong>) is defined as the time between two sisygias, which are positions of celestial bodies such as the Sun and the Moon relative to each other. In the Gaudiya Vaishnava calendar, these two sisygias are the two full moons. Therefore, one lunar month is the time between the two phases of the full moon. A lunar year (<strong>samvatsara</strong>) consists of twelve <strong>masas</strong> or lunar months. The terms &lsquo;<strong>masa</strong>&rsquo; and &rsquo;lunar month&rsquo; or &rsquo;lunation&rsquo; will be used interchangeably throughout this article. The year begins on the first day after <em>Gaura-purnima</em> and ends with the next <em>Gaura-purnima</em>. With the appearance of Sri Chaitanya Mahaprabhu, the era of <em>Gaurabda</em> begins.  The year 1486 marks the beginning of <em>Gaurabda</em> era. According to this era, the New Year starts on the first day after <em>Gaura Purnima</em> of the current Gregorian year. To determine the number of the current year in <em>Gaurabda</em>, subtract 1486 from the Gregorian year&rsquo;s number and add 1. Therefore, the current year 2024 marks the beginning of the 539th year of the Gaurabda era: <code>2024 - 1486 + 1 = 539</code>.</p>
+<p>The initial month of the Gaudiya Vaishnava calendar is known as &lsquo;Vishnu&rsquo; and typically occurs in March. It is followed by the other eleven months that bear the names of the Lord.</p>
+<h4 id="the-list-of-tithis">The list of tithis</h4>
+<ol>
+<li>Vishnu</li>
+<li>Madhusudan</li>
+<li>Trivikram</li>
+<li>Vamana</li>
+<li>Shridhar</li>
+<li>Hrishikesh</li>
+<li>Padmanabha</li>
+<li>Damodar</li>
+<li>Keshava</li>
+<li>Narayana</li>
+<li>Madhava</li>
+<li>Govinda</li>
+<li>Purushottam</li>
+</ol>
+<p>The lunar year is shorter than the solar year by approximately 11 days. To harmonise the two calendars, an extra month, known as <em>adhika masa</em>, is inserted into the lunar calendar. In the Gaudiya Vaishnava tradition, this additional month is referred to as Purushottam. It is considered exceptionally auspicious for spiritual life. The calculations involved in this extra month are quite complicated, so we take its start date and end date from ready-made Indian calendars. The month of Purushottam is embedded in one of the twelve months, dividing it into two parts, which will be explained in details further on.</p>
+<p>The following table gives the names of the Vaishnava months, their approximate correspondence to the months of the Gregorian calendar and their corresponding traditional Indian names.</p>
+<h4 id="the-table-of-tithis">The table of tithis</h4>
+<table>
+<thead>
+<tr>
+<th>Name of the month</th>
+<th>Gregorian month</th>
+<th>Indian name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Vishnu</td>
+<td>March-April</td>
+<td>Chaitra</td>
+</tr>
+<tr>
+<td>Madhusudan</td>
+<td>April-May</td>
+<td>Vaishakha</td>
+</tr>
+<tr>
+<td>Trivikram</td>
+<td>May-June</td>
+<td>Jyaishtha</td>
+</tr>
+<tr>
+<td>Vamana</td>
+<td>June-July</td>
+<td>Ashadha</td>
+</tr>
+<tr>
+<td>Shridhar</td>
+<td>July-August</td>
+<td>Shravana</td>
+</tr>
+<tr>
+<td>Hrishikesh</td>
+<td>August-September</td>
+<td>Bhadra</td>
+</tr>
+<tr>
+<td>Padmanabha</td>
+<td>September-October</td>
+<td>Ashvin</td>
+</tr>
+<tr>
+<td>Damodar</td>
+<td>October-November</td>
+<td>Kartika</td>
+</tr>
+<tr>
+<td>Keshava</td>
+<td>November-December</td>
+<td>Agrahayan</td>
+</tr>
+<tr>
+<td>Narayana</td>
+<td>December-January</td>
+<td>Pausha</td>
+</tr>
+<tr>
+<td>Madhava</td>
+<td>January-February</td>
+<td>Magh</td>
+</tr>
+<tr>
+<td>Govinda</td>
+<td>February-March</td>
+<td>Phalgun</td>
+</tr>
+<tr>
+<td>Purushottam</td>
+<td>It depends</td>
+<td>Adhika</td>
+</tr>
+</tbody>
+</table>
+<p>Each lunar month is divided into 30 parts, known as <strong>tithis</strong>, which represent the time it takes the Moon to travel 12° of a 360° circle on its path around the Earth from the position it was in at the time of the full moon to its return to the same position. The lengths of these <strong>tithis</strong> are not equal. A tithi can last for approximately 19 to 26 solar hours. It is crucial to calculate the start and end times of each <strong>tithi</strong>. This information is obtained from a guidebook called Madan Gupta Panjika, which is published in Calcutta in Bengali language at the beginning of each year. It should be noted that the <strong>tithis</strong> in this panjika are calculated for Calcutta and not for Navadvipa. In addition, our Math previously used the more popular PMBagchi panjika in Bengal, but it was later instructed by Srila Govinda Maharaj to use the Madan Gupta panjika. Sadhu Priya Prabhu explains that the story behind this was as follow:</p>
+<pre><code>The original panjika used in SCSMath was the PMBagchi edition. This was used by Bhaktivinod Thakur. Saraswati Thakur came to him to show his Surya Siddhanta calculations which were more accurate than the PMBagchi calculations, but Bhaktivinod Thakur dismissed that and said he was happy with their work. The Math only moved away from the PMBagchi panjika when for several years it was published late and became too difficult to get in time for our Gaura Purnima festival when everyone wanted the new one. So Gurudev accepted the change.
+</code></pre>
+<p>So we have 12 lunar months (<strong>masa</strong>) with 30 <strong>tithis</strong> in each. These 30 <strong>tithis</strong> are divided into two groups of fifteen. Such a group is called a <strong>paksha</strong> and represents a fortnight of a lunar month. The word <strong>paksha</strong> literally means &lsquo;side&rsquo;. The lunar month has two sides: the first dark side and the second light one. During the first side, the moon gradually wanes until the new moon, and during the second side, it gradually rises until the full moon at the end. These two <strong>pakshas</strong> are called the dark <strong>paksha</strong> or <em>Krishna-paksha</em> and the light <strong>paksha</strong> or <em>Gaura-paksha</em> respectively. The fifteen tithis of each paksha bear their names.</p>
+<h4 id="the-tithis-of-krishna-paksha">The tithis of Krishna-paksha:</h4>
+<ol>
+<li>Krishna pratipad</li>
+<li>Krishna dvitiya</li>
+<li>Krishna tritiya</li>
+<li>Krishna chaturti</li>
+<li>Krishna panchami</li>
+<li>Krishna shashthi</li>
+<li>Krishna saptami</li>
+<li>Krishna ashtami</li>
+<li>Krishna navami</li>
+<li>Krishna dashami</li>
+<li>Krishna ekadashi</li>
+<li>Krishna dvadashi</li>
+<li>Krishna trayodashi</li>
+<li>Krishna chaturdashi</li>
+<li>Amavasya (New moon)</li>
+</ol>
+<h4 id="the-tithis-of-gaura-paksha">The tithis of Gaura-paksha:</h4>
+<ol>
+<li>Gaura pratipad</li>
+<li>Gaura dvitiya</li>
+<li>Gaura tritiya</li>
+<li>Gaura chaturti</li>
+<li>Gaura panchami</li>
+<li>Gaura shashthi</li>
+<li>Gaura saptami</li>
+<li>Gaura ashtami</li>
+<li>Gaura navami</li>
+<li>Gaura dashami</li>
+<li>Gaura ekadashi</li>
+<li>Gaura dvavashi</li>
+<li>Gaura trayodashi</li>
+<li>Gaura chaturdashi</li>
+<li>Purnima (Fool moon)</li>
+</ol>
+<p>Thus, there are twelve Purnimas (or sometimes 13) and twenty-four Ekadashis (or sometimes 26) in each year. The <strong>tithis</strong> of the month of Purushottam have a peculiarity of their own: two of its <strong>pakshas</strong> change places with each other. <em>Gaura-paksha</em> goes first, followed by <em>Krishna-paksha</em>. Purushottam is embedded in one of the other months, dividing it into two halves. For example, if Purushottam is built into the month of Sridhar, then <em>Krishna-pakshaKrishna-paksha</em> of the month of Sridhar follows first, then <em>Gaura-paksha</em> of the month of Purushottam, followed by <em>Krishna-paksha</em> of Purushottam, and finally <em>Gaura-paksha</em> of the month of Sridhar. Such a feature should be kept in mind.</p>
+<p>There are also a number of other important units of time called nakshatras. A complete cycle of the Moon around the Earth is divided into 27 sectors, called <strong>nKrishna-pakshaakshatras</strong>, in addition to the thirty tithis. Calculations related to Mahadvadashis depend on the <strong>nakshatras</strong>. The list of Nakshatras is as follows.</p>
+<h4 id="the-list-of-nakshatras">The list of nakshatras</h4>
+<ol>
+<li>Ashvini</li>
+<li>Bharani</li>
+<li>Krittika</li>
+<li>Rohini</li>
+<li>Mrigashira</li>
+<li>Ardra</li>
+<li>Punarvasu</li>
+<li>Pushya</li>
+<li>Ashlesha</li>
+<li>Magha</li>
+<li>Purva Phalguni</li>
+<li>Uttara Phalguni</li>
+<li>Hasta</li>
+<li>Chitra</li>
+<li>Swati</li>
+<li>Vishakha</li>
+<li>Anuradha</li>
+<li>Jyeshtha</li>
+<li>Mula</li>
+<li>Purva Ashadha</li>
+<li>Uttara Ashadha</li>
+<li>Shravana</li>
+<li>Dhanishtha</li>
+<li>Shatabhisha</li>
+<li>Purva Bhadrapada</li>
+<li>Uttara Bhadrapada</li>
+<li>Revati</li>
+</ol>
+<h2 id="local-times">Local times</h2>
+<p>As per the express will of Srila Govinda Maharaj, all events of the Vaishnava calendar, except <em>ekadashi</em> days, should be celebrated according to the Navadvipa calendar. However, <em>ekadashis</em> should be observed according to the local peculiarities of the lunar calendar. This is clearly stated in the quotation from our official website:</p>
+<pre><code>During his 21st World Tour, Srila Bhakti Sundar Govinda Dev-Goswami Maharaj instructed that throughout the world the devotees will follow this calendar for all dates except for Ekadashis which may be calculated locally according to the lunar calendar.
+
+In this way the days of appearance, disappearance, and other Pastimes of the Lord and His devotees will be observed on the actual day they took place in India, rather than according to the technical local calculation of the 'tithi' (lunar day) which often had devotees observing, for example, the appearance of Mahaprabhu a day before He actually appeared here in Nabadwip.
+</code></pre>
+<p>For local computing, the times of sunrise and sunset in a given city are particularly important. We get this information for each year from the website<br>
+
+<a href="https://valakhilya.github.io/b_a_dandi//posts/https://www.drikpanchang.com/bengali/bengali-month-panjika.html">drikpanchag. com</a>
+
+We used to use the 
+<a href="https://valakhilya.github.io/b_a_dandi//posts/https://www.vedicastrologer.org/jh/">Jagannath Hora software</a>
+
+ for this purpose, but a little later it was decided to switch to this website. The data from this website is questionable. Sometimes the calculated sunrise and sunset times differ from the astronomical ones by 30-40 minutes, and sometimes even by an hour. Nevertheless, we have been using the data from this resource for a number of years, because they claim to use the text of Surya Siddhanta for their calculations.</p>
+<p>The time of sunrise and sunset in a particular city depends on its time zone. We get the corresponding time zones for each city from the website 
+<a href="https://valakhilya.github.io/b_a_dandi//posts/https://www.zeitverschiebung.net/en/all-time-zones.html">zeitverschiebung. net</a>
+
+ So, when calculating the start and end of <strong>tithi</strong> in a particular city, we take the data for Navadvipa and add a positive or negative offset depending on the time zone.</p>
+<p><code>tithi starttime in city = tithi starttime in Navadvipa + time zone offset</code></p>
+<p><code>tithi endtime in city = tithi endtime in Navadvipa + time zone offset</code></p>
+<p>When calculating local time, you should also take into account the change between winter and summer time in different countries. These dates, known as DST, Daylight Saving Time, are available on the website 
+<a href="https://valakhilya.github.io/b_a_dandi//posts/https://www.timeanddate.com/">timeanddate. com</a>
+
+  In general, the 
+<a href="https://valakhilya.github.io/b_a_dandi//posts/https://www.drikpanchang.com/">drikpanchag.com</a>
+
+ website automatically takes DST into account; however, this is not the case for <em>panjika</em>. Therefore, when calculating the start and end times of <strong>tithi</strong> according to the local calendar, you need to add the DST offset explicitly. For this reason, we store the DST data for each city in our database.</p>
+<h2 id="pure-and-impure-ekadashis">Pure and impure ekadashis</h2>
+<p><em>Ekadashi</em> can be complete (<em>shuddha</em>) or incomplete (<em>viddha</em>). A complete <em>ekadashi</em> is also called real or pure, and an incomplete is called defiled or impure. According to a quotation from <em>Hari-bhakti-vilasa</em> (12.342)</p>
+<pre><code>An Ekadashi that starts (at least) two muhurtas before sunrise (and continues to the next sunrise) is complete. Otherwise (if it does not start two muhurtas before sunrise), it is viddha.
+</code></pre>
+<p>The time <em>two muhurtas</em> before the sunrise is known by the <em>shastras</em> as <em>arunoday</em> (dawn). Two <em>muhurtas</em> lasts exactly 96 minutes. Therefore, if we subtract 96 minutes from the sunrise time according to the local calendar, the start time of the <strong>tithi</strong> must be less than this value for the <em>ekadashi</em> to be complete.</p>
+<p>The <em>shastras</em> (<em>Hari-bhakti-vilasa</em> in particular) are very, very adamant that under no circumstances should we take our vow (<em>vrata</em>) on an impure <em>ekadashi</em>. In all such cases, without exception, <strong>we are obliged</strong> to fast the day after the day of <em>ekadashi</em>.</p>
+<h2 id="dating-of-the-tithi">Dating of the tithi</h2>
+<p>There is also a unit of time associated with the cycles of the Sun called the <strong>vara</strong>, or day of the week. But this day of the week is different from what we are used to in the Gregorian calendar. Unlike that day, which lasts from midnight to midnight, <strong>vara</strong> lasts from sunrise to sunrise. <strong>Vara</strong> is therefore dated from the time of sunrise. The <strong>tithi</strong> is also dated in the same way: it is assigned the same date as the <strong>vara</strong> that it crosses. For example, if the <em>ekadashi</em> of the <strong>tithi</strong> begins on 3 January at 3 am and ends on 4 January at 5 am, and sunrise is on 3 January at 6 am, then the <em>ekadashi</em> is dated on 3 January. So, to calculate the date associated with a particular <strong>tithi</strong>, we need to take the time of its beginning and the time of its end and determine which sunrise is between these two points. The date of this sunrise will be the date for the entire <strong>tithi</strong>.</p>
+<p>There are three possible situations. The case where exactly one sunrise falls between the boundaries of the <strong>tithi</strong> is called <em>normal</em>. In this simple case, the date of this sunrise is simply assigned to the <strong>tithi</strong>. If there is not a single sunrise between the boundaries of the <strong>tithi</strong>, such a <strong>tithi</strong> is called a shadow <strong>tithi</strong> (<em>kshaya</em>). In this case it is dated by the date of the first sunrise immediately after it. And then its date coincides with the date of the next <strong>tithi</strong>. All festivals and vows associated with this <strong>tithi</strong> are carried over to the next <strong>tithi</strong>. This is the case when there are two different <strong>tithis</strong> with the same date in the calendar. There is a special note about this in the calendar. It may also happen that there are two sunrises between the boundaries of the same <strong>tithi</strong>. Such a case is called <em>sampurna</em> (complete). In this case, the <strong>tithi</strong> is usually dated <em>on the first of the two</em> <strong>varas</strong>, but an <em>exception is made in the case of ekadashi vows</em>. For <em>ekadashi</em>, all vows are taken on the second day instead of the first. To comprehend the reasons for this, one must examine the peculiarities of the <em>ekadashi</em> pledge.</p>
+<h2 id="sri-hari-vasar">Sri Hari-vasar</h2>
+<p>The time of <em>ekadashi</em> fasting is called the <strong>Hari-vasar</strong> period (as we sing in the <em>ekadashi</em> song). This period itself lasts for the last quarter of <em>ekadashi</em> and the first quarter of <em>dvadashi</em>. For this reason, the <em>Hari-bhakti-vilasa</em> (13.259) strictly prescribes the observance of fasting without interrupting it until the completion of the first quarter of <em>dvadashi</em>. The variations in the timing of <em>parans</em>, or breaking of fasting, are related to this.</p>
+<h2 id="names-of-ekadashi">Names of ekadashi</h2>
+<p>There are twelve <strong>masas</strong>, or lunar months, in a lunar year. Each <strong>masa</strong> contains two <em>ekadashis</em>: one for the dark half of the month (<em>Krishna ekadashi</em>) and one for the light half (<em>Gaura ekadashi</em>). These <em>ekadashis</em> are repeated every year in the same order. In years with an additional month of Purushottam, two more special <em>ekadashis</em> are added for that month. The names of these 26 <em>ekadashis</em> (the last two being for the month of Purushottam) are listed below.</p>
+<ol>
+<li>Papa Vimochani</li>
+<li>Kamada</li>
+<li>Varuthini</li>
+<li>Mohini</li>
+<li>Apara</li>
+<li>Nirjala</li>
+<li>Yogini</li>
+<li>Shayana</li>
+<li>Kāmika</li>
+<li>Pavitraropani</li>
+<li>Annada</li>
+<li>Parshva</li>
+<li>Indira</li>
+<li>Papankusha</li>
+<li>Rama</li>
+<li>Utthana</li>
+<li>Utpanna</li>
+<li>Mokshada</li>
+<li>Saphala</li>
+<li>Putrada</li>
+<li>Sat-tila</li>
+<li>Bhaimi</li>
+<li>Vijaya</li>
+<li>Amalaki</li>
+<li>Padmini</li>
+<li>Parama</li>
+</ol>
+<h2 id="mahadvadashis">Mahadvadashis</h2>
+<p>If the <em>ekadashi</em> is pure (not <em>viddha</em>), we usually fast on that particular day. However, there are exceptions when the fast is observed on next day.   This occurs during <em>mahadvadashi</em>, of which there are eight cases in total. It is not necessary that all eight cases will occur within a year, as it depends on different circumstances. These circumstances are explained below.</p>
+<p>There are two groups of <em>mahadvadashis</em>, with four in each group. The first group is determined by the <em>tithis</em>, while the second group is determined by the <em>nakshatras</em>. The initial four <em>mahadvadashis</em> based on <em>tithi</em> are as follows (for a <em>mahadvadashi</em> situation to occur, the <em>ekadashi</em> must be pure. It does not make much sense for impure days):</p>
+<h4 id="unmilani-mahadvadashi">Unmilani mahadvadashi</h4>
+<p>When <em>ekadashi</em> is <em>sampurna</em> and next <em>dvadashi</em> is <em>kshaya</em>, that is <em>Unmilani mahadvadashi</em> case. In this case fast is observed on second day of <em>ekadashi</em>.</p>
+<h4 id="vyanjuli-mahadvadashi">Vyanjuli mahadvadashi</h4>
+<p>When <em>ekadashi</em> is pure, but next <em>dvadashi</em> is <em>sampurna</em>, that is <em>Vyanjuli mahadvadashi</em>, and in that case fast is observed on first day of <em>dvadashi</em> instead of <em>ekadashi</em> day.</p>
+<h4 id="trisprisha-mahadvadashi">Trisprisha mahadvadashi</h4>
+<p>When <em>ekadashi</em> is not <em>sampurna</em>, but next <em>dvadashi</em> is <em>kshaya</em>, and so one <strong>vara</strong> contains a little bit of <em>ekadashi</em>, full <em>dvadashi</em> and little bit of <em>trayodashi</em>, that is <em>Trisprisha mahadvadashi</em>, and fasting falls on the next day (<em>trayodashi</em>).</p>
+<h4 id="paksha-vardhini-mahadvadashi">Paksha-vardhini mahadvadashi</h4>
+<p>When <em>amavasya</em> or <em>purnima</em> of some month is <em>sampurna</em>, that is <em>Paksha-vardhini mahadvadashi</em> case, and fast falls on next day after <em>ekadashi</em>.</p>
+<h4 id="nakshatra-mahadvadashis">Nakshatra mahadvadashis</h4>
+<p>There are also four <em>nakshatra</em> <em>mahadvadashis</em>. The <em>nakshatras</em> that are considered in this context are <em>Pushya</em>, <em>Punarvasu</em>, <em>Rohini</em> and <em>Shravana</em>. <em>Nakshatras</em> <em>are considered only if they affect a part of the</em> <em>dvadashi</em> <strong>tithi</strong>.</p>
+<p><em>Nakshatras</em> are considered only in the forthnight of the waxing Moon, i.e. it makes sense to consider them only for <em>Gaura-paksha</em>. <em>Mahadvadashi</em> does not occur in <em>Krishna-paksha</em>.</p>
+<p>If the beginning of any of these <em>nakshatras</em> coincides exactly with sunrise (of <em>dvadashi</em> <strong>tithi</strong>, with an accuracy of up to two minutes), it is a special case. In this case, the fast should be observed on the day following the <em>ekadashi</em>.</p>
+<p><em>Nakshatras</em> are counted even if they begin before sunrise on the day of <em>dvadashi</em>, provided that their duration exceeds 24 hours.   In addition, the <em>dvadashi</em> must end after sunset i. e. must include both the sunrise and the sunset of that day. If any of the four <em>nakshatras</em> begin later than sunrise on the day of <em>dvadashi</em>, then they are not counted.</p>
+<p>The <em>Shravana</em> <em>nakshatra</em> case has a unique peculiarity. In this case, the <em>dvadashi</em> can end before sunset, but it (it is namely <em>dvadashi</em> <strong>tithi</strong>, not <em>nakshatra</em>) must continue for at least 1.5 of <em>prahara</em>, or 3⁄8 th of the difference between sunset and sunrise.</p>
+<h4 id="jaya-mahadvadashi">Jaya mahadvadashi</h4>
+<p>When <em>Punarvasu nakshatra</em> appears on the <em>dvadashi</em> of the waxing fortnight, then that <strong>tithi</strong> becomes known as <em>Jaya Mahadvadashi</em>.</p>
+<h4 id="jayanti-mahadvadashi">Jayanti mahadvadashi</h4>
+<p>When <em>Rohini nakshatra</em> appears on the <em>dvadashi</em> of the waxing fortnight, then that <strong>tithi</strong> becomes known as <em>Jayanti mahadvadashi.</em></p>
+<h4 id="papa-nashini-mahadvadashi">Papa-nashini mahadvadashi</h4>
+<p>When <em>Pushya nakshatra</em> appears on the <em>dvadashi</em> of the waxing fortnight, then that <strong>tithi</strong> becomes known as <em>Papa-nashini mahadvadashi.</em></p>
+<h4 id="vijaya-mahdvadashi">Vijaya Mahdvadashi</h4>
+<p>When, finally, <em>Shravana nakshatra</em> appears on the <em>dvadashi</em> of the waxing fortnight, then that <strong>tithi</strong> becomes known as <em>Vijaya mahadvadashi</em>.</p>
+<h1 id="vishnu-shrinkhala-yoga">Vishnu-shrinkhala-yoga</h1>
+<p><em>Vishnu-shrinkhala-yoga</em> can take place during <em>Gaura-paksha</em> of the month of Hrishikesh. It does not take place in any other fortnight of the year. There are two kinds of <em>Vishnu-shrinkhala yoga</em>.</p>
+<p>For the first type of <em>Vishny-shrinkhala yoga</em> to be realised, it is necessary for the <em>Shravana nakshatra</em> to overlap at least a part of the <em>ekadashi tithi</em> and a part of the <em>dvadashi tithi</em> simultaneously. It is not necessary for the <em>nakshatra</em> to overlap the sunrise in <em>dvadashi</em>: it should overlap at least a small part of it. In this case, the <em>nakshatra</em> can even completely absorb the <em>ekadashi</em>. It is important that the <em>nakshatra</em> also overlaps at least a part of the <em>dvadashi</em>.</p>
+<p>The second occurrence of <em>Vishnu-shrinkhala-yoga</em> happens when all the conditions of the first case are met, and the <em>dvadashi</em> is <em>kshaya</em>.</p>
+<p>If the <em>Shravana nakshatra</em> does not cross either <em>ekadashi</em> or <em>dvadashi</em>, and the <em>ekadashi</em> is pure, then observe the fast on the <em>ekadashi</em>. If the <em>Shravana nakshatra</em> crosses <em>dvadashi</em> but not <em>ekadashi</em>, and fulfils the other criteria of <em>mahadvadashi</em> given above, then fast on <em>dvadashi</em> — it will be a case of <em>Vijaya mahadvadashi</em>. If <em>Vishnu-shrinkhala-yoga</em> is present but there is no <em>mahadvadashi</em>, <em>then fast on the day of ekadashi</em>. If both <em>Vishnu-shrinkhala-yoga</em> and <em>mahadvadashi</em> occur simultaneously, a special rule applies. If both <em>dvadashi</em> and <em>Shravana nakshatra</em> ended after sunset, one should fast on <em>dvadashi</em>. Otherwise, one should fast on <em>ekadashi</em>. It is important to note that this <em>dvadashi</em> falls on <em>Gaura-dvadashi</em> of the month of Hrishikesh, which is the day of Vamanadev&rsquo;s (and Jiva Goswami&rsquo;s) appearance. If fasting occurs on the day of <em>ekadashi</em>, it should be interrupted on <em>dvadashi</em>. Simply glorify Vamanadev on this <em>dvadashi</em> and do not fast. Similarly, if fasting occurs on <em>ekadashi</em>, do not fast on <em>Varaha dvadashi</em>. The calendar contains a special remark about this.</p>
+<h1 id="parans">Parans</h1>
+<p>After ascertaining the day to observe <em>Shri Hari-vasar vrata</em> and engaging in activities appropriate for the <em>vrata</em> on that day, the <em>vrata</em> must be completed by performing <em>paran</em>, breaking the fast at the proper time. If the fast is not broken at the proper time, it is considered that one has failed to observe <em>Shri Hari-vasar vrata</em>. Depending on whether <em>Shri-hari-vasara</em> was observed on <em>ekadashi</em> or <em>dvadashi</em> and whether or not a <em>mahadvadashi</em> occurred, there are different calculations used to ascertain the window of time in which <em>paran</em> should be performed.</p>
+<h4 id="shuddha-ekadashi-paran">Shuddha ekadashi paran</h4>
+<p>One obvious value for start of <em>paran</em> is sunrise of the fast day. But there are also some additonal rules.</p>
+<p>Since the period of <em>Hari-vasara</em> covers the last quarter of <em>ekadashi</em> and the first quarter of <em>dvadashi</em>, one should not break the fast before the end of  the initial quarter of <em>dvadashi</em>. And in those cases when the first quarter of <em>dvadashi</em> is completed after sunrise, one should fast until that time.</p>
+<p>If ¼ <em>dvadashi</em> is completed before sunrise, the beginning of <em>paran</em> will be the sunrise of that day. However, if ¼ <em>dvadashi</em> is completed after sunrise, the beginning of <em>paran</em> should be from that time.</p>
+<p>To determine the time of completion, it is necessary to consider a value known as <em>purvahna</em>, which represents one third of a day. The calculation of <em>purvahna</em> is as follows:</p>
+<p><code>purvahna = time of sunrise + ⅓(time of sunset - time of sunrise)</code></p>
+<p>Therefore, one should break the fast from the beginning of <em>paran</em> to <em>purvahna</em>. But there is another rule that says that one should not fast on <em>trayodashi</em>. It means that the fast should be broken before the end of <em>dvadashi</em>. Hence, if <em>dvadashi</em> is completed before <em>purvahna</em>, the end of <em>paran</em> is the end of <em>dvadashi</em>. If it is after, then <em>paran</em> will be the end of <em>purvahna</em>. This explains why sometimes the time of <em>paran</em> is so paradoxically short: sometimes the quarter of <em>dvadashi</em> ends late and is almost approaching <em>purvahna</em>, sometimes <em>dvadashi</em> ends almost immediately after sunrise and the time of <em>paran</em> may be only a few minutes. In some rare cases the quarter of <em>dvadashi</em> exceeds even the <em>purvahna</em> time. In such cases, the <em>paran</em> begins after the completion of a quarter of <em>dvadashi</em> and ends at sunset.</p>
+<h4 id="viddha-ekadashi-paran">Viddha ekadashi paran</h4>
+<p>In case of <em>viddha ekadashi</em> (where <em>ekadashi</em> starts later than <em>arunoday</em>), fasting on <em>ekadashi</em> <em>should</em> be rejected and fasted on <em>dvadashi</em>, breaking the fast on the day after <em>dvadashi</em>. In such cases, the fast should be interrupted after the completion of <em>dvadashi</em> and before <em>purvahna</em>. But if <em>trayodashi</em> is completed before <em>purvahna</em>, then the end of the <em>paran</em> will be the end of <em>trayodashi</em>. Thus, if <em>dvadashi</em> ends before sunrise, the fast should be broken from sunrise onwards, otherwise the fast should be broken after the completion of <em>dvadashi</em> by calculating the appropriate time for the completion of the fast.</p>
+<h4 id="unmilani-trisprisha-and-paksha-vardhini-mahadvadashis-parans">Unmilani, Trisprisha and Paksha-vardhini mahadvadashi&rsquo;s parans</h4>
+<p>In this case fast should be calculated in the same way as in the <em>viddha ekadashi</em> case.</p>
+<h4 id="vyanjuli-mahadvadashi-paran">Vyanjuli mahadvadashi paran</h4>
+<p>In this case fast should be interrupted in the second day of <em>dvadashi tithi</em> before the end of <em>dvadashi</em> after sunrise. It is usually very short <em>paran</em> time.</p>
+<h4 id="nakshatra-mahadvadashis-parans">Nakshatra mahadvadashi&rsquo;s parans</h4>
+<p>For <em>paran</em> after <em>Nakshatra mahadvadashi</em>, it is necessary to distinguish between different cases. In this scenario, fasting is observed on the day following the <em>dvadashi.</em> The duration of both <em>nakshatra</em> and <em>mahadvadashi</em> affects the fasting period. If neither <em>nakshatra</em> nor <em>dvadashi</em> extends beyond the <em>varas,</em> i.e. if neither lasts longer than the time of sunrise on the day of fasting, then the fast should be broken from dawn until <em>purvahna</em>. If both <em>nakshatra</em> and <em>dvadashi</em> end after sunrise on the day of fasting, then the time between their endings should be chosen for breaking the fast. For instance, if <em>nakshatra</em> lasts longer, one should fast from the end of <em>dvadashi</em> to the end of <em>nakshatra</em>. Conversely, if <em>dvadashi</em> lasts longer, one should fast from the end of <em>nakshatra</em> to the end of <em>dvadashi</em>. If the <em>Rohini</em> or <em>Shravana nakshatras</em> are completed after sunrise on the day of fasting, but <em>dvadashi</em> is not, the fast should be broken from sunrise to the completion of these <em>nakshatras</em>. If the <em>Punarvasa</em> or <em>Pushya nakshatras</em> end after sunrise on that day, then the fast should be broken after the completion of the <em>nakshatra</em> and until <em>purvahna</em> (or, in special rare cases, as above, until sunset). If the <em>nakshatras</em> do not overlap with the sunrise on the day of fasting, but the <em>dvadashi</em> does, then one should fast from sunrise until the completion of the <em>dvadashi</em> or until <em>purvahna</em> if it occurs before the completion of the <em>dvadashi tithi</em>.</p>
+<h4 id="vishnu-shrinkala-yoga-paran">Vishnu-shrinkala-yoga paran</h4>
+<p>For the first instance of <em>Vishnu-shrinkhala-yoga</em>, it is stated that if both <em>Shravana nakshatra</em> and <em>dvadashi</em> coincide with the sunrise on the day of fasting, then one should break the fast after the end of the <em>nakshatra</em> and before the end of the <em>tithi</em> if the duration of the <em>tithi</em> is longer. However, if the <em>nakshatra</em> is longer, then the fast should be broken after the end of the <em>tithi</em> and before the end of the <em>nakshatra</em>. If either <em>dvadashi</em> or <em>nakshatra</em> is completed after sunset, the fast should be completed before sunset. In <em>Shrinkhala-yoga</em> of the second type, fasting is interrupted in <em>trayodashi</em>.</p>
+<h4 id="gaura-purnima-nrisimha-chaturdashi-and-janmashtami-parans">Gaura Purnima, Nrisimha Chaturdashi and Janmashtami parans</h4>
+<p>During these holy days, fasting is observed from sunrise until <em>purvahna</em> the following day.</p>
+<h4 id="govardhana-puja-paran">Govardhana puja paran</h4>
+<p>According to Govinda Maharaj, all offerings for <em>Govardhana-puja</em> should be completed before the <em>pratipat tithi</em> is over, and the feast should be held afterwards.</p>
+<h2 id="the-holy-days-and-festivals">The holy days and festivals</h2>
+<p>The dates of holy days for the appearance and departure of <em>acharyas</em> and exalted <em>vaishnavas</em>, as well as various festivals, are determined by their respective <em>tithis</em>, which are stored in our database. However, specific instructions regarding <em>Rama Navami</em> and the festivals of the <em>Ratha-yatra</em> cycle can be found on our website.</p>
+<p>
+<a href="https://valakhilya.github.io/b_a_dandi//posts/http://scsmath.com/events/calendar/18-19_Calendar-Special-Features.html">http://scsmath.com/events/calendar/18-19_Calendar-Special-Features.html</a>
+
+</p>
+<h4 id="rama-navami">Rama-navami</h4>
+<p><em>Gaura-navami</em> of the month of Vishnu (<em>Rama-navami</em>) may be <em>kshaya</em>. In such cases, the vows are usually postponed to the next day. However, in this special case, an exception is made, and <em>Rama-navami</em> is celebrated on the previous day. The reasons for this are as follows:</p>
+<pre><code>This is to ensure the observance of paran for Sri Rama Navami (for those who observe a full fast on this day) does not conflict with the observance of Ekadashi. If one were to observe Sri Rama Navami on the Dashami following a kshaya Navami, one would have to break fast on Ekadashi. To preclude the possibility of this, the exception is given that in the event of Navami being ksay, Ekadashi being pure, and there being no Mahadvadashi, Sri Rama Navami should be observed on the day of Ashtami and kshaya Navam.
+</code></pre>
+<h4 id="sri-jagannath-ratha-yatra-gundicha-marjana-snana-yatra-hera-panchami-punar-yatra-and-chandana-yatra">Sri Jagannath Ratha-yatra, Gundicha-marjana, Snana-yatra, Hera-panchami, Punar-yatra and Chandana-yatra</h4>
+<p>These days are celebrated on the same dates on which they are celebrated in Jagannatha Puri, as the quote from our website states:</p>
+<pre><code>Srila Bhakti Sundar Govinda Dev-Goswami Maharaj on 27 November 2006: “In the scriptures, there are so many procedures within vaidhi-bhakti. When there are complications in the laws for vaidhi-bhakti, Srila Sanatan Goswami said that we should follow the dates observed by Lord Jagannath.
+
+**kintv idrg bhakti-sandarsi-jagannathanusaratah  
+dola-chandana-kilala-ratha-yatras cha karayet**  
+_(Sri Hari-bhakti-vilasa: 14.327)_
+
+“When we cannot settle the proper time and date for a festival, we should follow the date observed by Jagannath. This means we will observe services to the Lord such as Ratha Yatra and Chandan Yatra on the day these services are being offered to Jagannath. We are following this rule by the grace of Srila Guru Maharaj.”
+</code></pre>
+<p>Therefore the dates of these days are simply taken from the annual calendar for Odisha.</p>
+<h4 id="sannyasa-lila-mahaprabhu">Sannyasa-lila Mahaprabhu</h4>
+<p>It is widely acknowledged that Mahaprabhu left his home to take <em>sannyasa</em> on <em>Makar-sankranti</em> and the after one day he took <em>sannyasa</em> at Katwa. The day of <em>Makar-sankranti</em> requires complex astronomical calculations that can result in variations of one day. However, in our calendar, the day Mahaprabhu left home is always 13 January, and the day on which he accepted <em>sannyasa</em> is always 15 January. This has been consistently observed year after year for many years. <em>Makar-sankranti</em> is not always on 13 January, but this fact has not been taken into account at the moment. If necessary, the data can be obtained annually from astronomical reference books.</p>
+<h4 id="srila-gurudevs-disappearance">Srila Gurudev&rsquo;s disappearance</h4>
+<p>The commemoration of Srila Govinda Maharaj&rsquo;s passing falls on the <em>Gaura dvadashi</em> of the month of Vishnu. It is preceded by <em>ekadashi</em>, but sometimes there can be a <em>mahadvadashi</em> situation with fasting on <em>dvadashi</em> and <em>paran</em> the next day, as was the case in 2023. Since the passing of Srila Govinda Maharaj is celebrated on that day, the fasting still takes place on the day of <em>ekadashi</em>, with paran on <em>dvadashi</em>, as it does in those years when there is no <em>mahadvadashi</em>.</p>
+<h4 id="christmas-and-new-year">Christmas and New Year</h4>
+<p>Since Srila Govinda Maharaj spoke on these days, we include references to his lectures in our calendar every year on 25 December and 1 January.</p>
+<h4 id="gaura-purnima-parikrama-days">Gaura Purnima Parikrama days</h4>
+<p>The seven-day festival comprises of <em>parikrama</em> along with <em>adhivas</em>, <em>Gaura Purnima</em> day and <em>anandotsav</em>, which is a long-standing tradition of our Math. The four days preceding <em>Gaura Purnima</em> are reserved for the <em>parikrama</em> on Navadvipa Dhama, and one day before that is considered the <em>adhivas</em> of the <em>parikrama</em>. The dates of these days are calculated according to this principle.</p>
+<h1 id="conclusion">Conclusion</h1>
+<p>These are the guidelines on which the Sri Chaitanya Saraswat Math calendar is currently based. It is important to scrutinise and verify these guidelines for consistency with the <em>shastras</em> and <em>guru-parampara</em> to establish the calendar traditions of our Math definitively.</p>
+
+                </main>
+                <footer class="footer post-footer">
+                    <div class="pure-menu pure-menu-horizontal">
+                        
+                        <ul>
+                        
+                            <li class="pure-menu-item">
+                                <a href="https://valakhilya.github.io/b_a_dandi/" class="pure-menu-link">Home</a>
+                            </li>
+                            <li class="pure-menu-item">
+                                <a href="https://valakhilya.github.io/b_a_dandi//about/" class="pure-menu-link">About</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </footer>
+            </section>
+        </div>
+        <div class="pure-u-1 pure-u-md-1-4"></div>
+    </div>
+
+</body>
+</html>
