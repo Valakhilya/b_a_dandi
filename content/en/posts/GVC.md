@@ -150,6 +150,10 @@ When calculating local time, you should also take into account the change betwee
 The time *two muhurtas* before the sunrise is known by the *shastras* as *arunoday* (dawn). Two *muhurtas* lasts exactly 96 minutes. Therefore, if we subtract 96 minutes from the sunrise time according to the local calendar, the start time of the **tithi** must be less than this value for the *ekadashi* to be complete.
 
 The *shastras* (*Hari-bhakti-vilasa* in particular) are very, very adamant that under no circumstances should we take our vow (*vrata*) on an impure *ekadashi*. In all such cases, without exception, **we are obliged** to fast the day after the day of *ekadashi*.
+
+The criterion of *viddha* is not considered for any **tithi** other than *ekadashi*. Only the *kshaya* criterion is taken into account. For instance, if the day of a great Vaishnava's appearance falls on a particular **tithi**, it is celebrated on that **tithi**, regardless of *viddha*, i.e. the purity or impurity of that day. The celebration is postponed to the next day only if that **tithi** is *kshaya*.    
+
+This is the current practice, which can be corrected through discussion.
 ## Dating of the tithi
 
 There is also a unit of time associated with the cycles of the Sun called the **vara**, or day of the week. But this day of the week is different from what we are used to in the Gregorian calendar. Unlike that day, which lasts from midnight to midnight, **vara** lasts from sunrise to sunrise. **Vara** is therefore dated from the time of sunrise. The **tithi** is also dated in the same way: it is assigned the same date as the **vara** that it crosses. For example, if the *ekadashi* of the **tithi** begins on 3 January at 3 am and ends on 4 January at 5 am, and sunrise is on 3 January at 6 am, then the *ekadashi* is dated on 3 January. So, to calculate the date associated with a particular **tithi**, we need to take the time of its beginning and the time of its end and determine which sunrise is between these two points. The date of this sunrise will be the date for the entire **tithi**.
@@ -315,4 +319,4 @@ The seven-day festival comprises of *parikrama* along with *adhivas*, *Gaura Pur
 These are the guidelines on which the Sri Chaitanya Saraswat Math calendar is currently based. It is important to scrutinise and verify these guidelines for consistency with the *shastras* and *guru-parampara* to establish the calendar traditions of our Math definitively.
 
 ---
-Last updated: 5.03.2024 22:47
+Last updated: 7.03.2024 13:42
