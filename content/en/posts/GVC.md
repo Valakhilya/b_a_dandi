@@ -162,6 +162,10 @@ There are three possible situations. The case where exactly one sunrise falls be
 ## Sri Hari-vasar
 
 The time of *ekadashi* fasting is called the **Hari-vasar** period (as we sing in the *ekadashi* song). This period itself lasts for the last quarter of *ekadashi* and the first quarter of *dvadashi*. For this reason, the *Hari-bhakti-vilasa* (13.259) strictly prescribes the observance of fasting without interrupting it until the completion of the first quarter of *dvadashi*. The variations in the timing of *parans*, or breaking of fasting, are related to this.
+
+## Case of sampurna ekadashi
+
+At this point, we consider the *sampurna ekadashi* as pure by definition since this *ekadashi* is dated on the second day, and thus the **tithi** naturally begins earlier than two *muhurta* before the second sunrise. However, it is not uncommon for a *sampurna ekadashi* to be *viddha* from a conventional point of view. This is an issue that requires discussion and resolution. 
 ## Names of ekadashis
 
 There are twelve **masas**, or lunar months, in a lunar year. Each **masa** contains two *ekadashis*: one for the dark half of the month (*Krishna ekadashi*) and one for the light half (*Gaura ekadashi*). These *ekadashis* are repeated every year in the same order. In years with an additional month of Purushottam, two more special *ekadashis* are added for that month. The names of these 26 *ekadashis* (the last two being for the month of Purushottam) are listed below.
@@ -319,4 +323,4 @@ The seven-day festival comprises of *parikrama* along with *adhivas*, *Gaura Pur
 These are the guidelines on which the Sri Chaitanya Saraswat Math calendar is currently based. It is important to scrutinise and verify these guidelines for consistency with the *shastras* and *guru-parampara* to establish the calendar traditions of our Math definitively.
 
 ---
-Last updated: 7.03.2024 13:42
+Last updated: 12.03.2024 07:44
