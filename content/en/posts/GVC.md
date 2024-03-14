@@ -312,6 +312,10 @@ It is widely acknowledged that Mahaprabhu left his home to take *sannyasa* on *M
 ### Srila Gurudev's disappearance
 
 The commemoration of Srila Govinda Maharaj's passing falls on the *Gaura dvadashi* of the month of Vishnu. It is preceded by *ekadashi*, but sometimes there can be a *mahadvadashi* situation with fasting on *dvadashi* and *paran* the next day, as was the case in 2023. Since the passing of Srila Govinda Maharaj is celebrated on that day, the fasting still takes place on the day of *ekadashi*, with paran on *dvadashi*, as it does in those years when there is no *mahadvadashi*.
+
+### Fasting on the Appearance Day of Lord Nityananda
+
+Research shows that until 2015, our mission calendar indicated that on the day of Nityananda Trayodashi, one should fast until lunchtime.This tradition is still followed in our Indian centres.However, after 2015, the information about fasting on this day disappeared from the calendar. This is an issue that needs to be addressed.
 ### Christmas and New Year
 
 Since Srila Govinda Maharaj spoke on these days, we include references to his lectures in our calendar every year on 25 December and 1 January.
@@ -323,4 +327,4 @@ The seven-day festival comprises of *parikrama* along with *adhivas*, *Gaura Pur
 These are the guidelines on which the Sri Chaitanya Saraswat Math calendar is currently based. It is important to scrutinise and verify these guidelines for consistency with the *shastras* and *guru-parampara* to establish the calendar traditions of our Math definitively.
 
 ---
-Last updated: 12.03.2024 07:44
+Last updated: 14.03.2024 06:49
