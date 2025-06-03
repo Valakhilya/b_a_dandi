@@ -209,7 +209,7 @@ When *ekadashi* is *sampurna* and next *dvadashi* is *kshaya*, that is *Unmilani
 When *ekadashi* is pure, but next *dvadashi* is *sampurna*, that is *Vyanjuli mahadvadashi*, and in that case fast is observed on first day of *dvadashi* instead of *ekadashi* day.
 ### Trisprisha mahadvadashi
 
-When *ekadashi* is not *sampurna*, but next *dvadashi* is *kshaya*, and so one **vara** contains a little bit of *ekadashi*, full *dvadashi* and little bit of *trayodashi*, that is *Trisprisha mahadvadashi*, and fasting falls on the next day (*trayodashi*). 
+When *ekadashi* is not *sampurna*, but next *dvadashi* is *kshaya*, and so one **vara** contains a little bit of *ekadashi*, full *dvadashi* and little bit of *trayodashi*, that is *Trisprisha mahadvadashi*, and fasting falls on the day of *ekadashi* (because *dvadashi* and *ekadashi* share the same date in this case). 
 ### Paksha-vardhini mahadvadashi
 
 When *amavasya* or *purnima* of some month is *sampurna*, that is *Paksha-vardhini mahadvadashi* case, and fast falls on next day after *ekadashi*.
@@ -327,4 +327,4 @@ The seven-day festival comprises of *parikrama* along with *adhivas*, *Gaura Pur
 These are the guidelines on which the Sri Chaitanya Saraswat Math calendar is currently based. It is important to scrutinise and verify these guidelines for consistency with the *shastras* and *guru-parampara* to establish the calendar traditions of our Math definitively.
 
 ---
-Last updated: 14.03.2024 06:49
+Last updated: 2025-06-03 18:22 Indian time 
