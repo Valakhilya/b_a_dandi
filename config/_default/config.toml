@@ -2,7 +2,8 @@ baseURL = 'https://valakhilya.github.io/b_a_dandi/'
 languageCode = 'en-us'
 title = "Dandi Swami's weblog"
 defaultContentLanguage = 'en'
-paginate = 12
+[pagination]
+  pagerSize = 12
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
