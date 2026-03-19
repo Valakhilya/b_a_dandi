@@ -316,9 +316,13 @@ The commemoration of Srila Govinda Maharaj's passing falls on the *Gaura dvadash
 ### Fasting on the Appearance Day of Lord Nityananda
 
 Research shows that until 2015, our mission calendar indicated that on the day of Nityananda Trayodashi, one should fast until lunchtime.This tradition is still followed in our Indian centres.However, after 2015, the information about fasting on this day disappeared from the calendar. This is an issue that needs to be addressed.
+
+**Update:** Starting in 2026, we included information about fasting on Nityananda Trayodashi.
 ### Christmas and New Year
 
 Since Srila Govinda Maharaj spoke on these days, we include references to his lectures in our calendar every year on 25 December and 1 January.
+
+**NB:**  Starting in 2025, information about the celebration of Christmas and New Year has been removed from our calendar.
 ### Gaura Purnima Parikrama days
 
 The seven-day festival comprises of *parikrama* along with *adhivas*, *Gaura Purnima* day and *anandotsav*, which is a long-standing tradition of our Math. The four days preceding *Gaura Purnima* are reserved for the *parikrama* on Navadvipa Dhama, and one day before that is considered the *adhivas* of the *parikrama*. The dates of these days are calculated according to this principle.
@@ -327,4 +331,4 @@ The seven-day festival comprises of *parikrama* along with *adhivas*, *Gaura Pur
 These are the guidelines on which the Sri Chaitanya Saraswat Math calendar is currently based. It is important to scrutinise and verify these guidelines for consistency with the *shastras* and *guru-parampara* to establish the calendar traditions of our Math definitively.
 
 ---
-Last updated: 2025-06-03 18:22 Indian time 
+Last updated: 19.03. 2026 15:20 Indian time
